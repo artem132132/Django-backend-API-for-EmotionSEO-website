@@ -17,7 +17,7 @@ class PublicApiMixin:
     authentication_classes = ()
     permission_classes = ()
 
-
+ 
 class ApiErrorsMixin:
     """
     Mixin that transforms Django and Python exceptions into rest_framework ones.
