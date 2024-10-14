@@ -6,7 +6,7 @@ from django.core.exceptions import ValidationError
 
 from .utils import get_error_message
 from .models import User
-
+ 
 
 class ApiAuthMixin:
     authentication_classes = (JWTAuthentication, )
